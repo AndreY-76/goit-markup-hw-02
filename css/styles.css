@@ -12,6 +12,7 @@
 body{
     color: var(--primary-text-color);
     background-color: var(--white-color);
+    font-family: Roboto, sans-serif
 }
 ul{
     list-style: none;
@@ -24,9 +25,11 @@ ul{
 
 .logo{
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
 }
 .page-header .studio{
     color: #000000;
+    font-family: Raleway, sans-serif;
 }
 /* nav */
 .site-nav .link{
@@ -53,8 +56,10 @@ ul{
 /* main */
 
 /* filter */
-.button{
-    color: ;
+.filter .button:hover,
+.filter .button:focus{
+    color: var(--accent-color);
+    background-color: var(--background-btn-color);
 }
 .button.primary{
     color: var(--white-color);
@@ -93,6 +98,7 @@ ul{
 }
 .footer .studio{
     color: var(--white-color);
+    font-family: Raleway, sans-serif;
 }
 .address .mail,
 .address .tel{
