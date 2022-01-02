@@ -88,10 +88,7 @@ button{
     cursor: pointer;
 }
 .filter .button.secondary:hover,
-.filter .button.secondary:focus{
-    color: var(--accent-color);
-    background-color: var(--background-btn-color);
-}
+.filter .button.secondary:focus,
 .button.primary{
     color: var(--white-color);
     background-color: var(--accent-color);
@@ -112,6 +109,7 @@ button{
     text-decoration: none;
 }
 .cards p{
+    color:var(--primary-text-color) ;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -196,6 +194,7 @@ button{
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
 }
 .address .mail,
 .address .tel{
@@ -206,5 +205,5 @@ button{
 }
 .address a:hover,
 .address a:focus{
-    color: var(--accent-color);
+    color: var(--white-color);
 }
